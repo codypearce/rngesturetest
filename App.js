@@ -21,7 +21,7 @@ const App = () => {
         onHandlerStateChange={onPinchStateChange}>
         <Animated.View
           style={{
-            height: 800,
+            height: 300,
             width: 500,
             backgroundColor: 'black',
             transform: [{scale: scale}],
